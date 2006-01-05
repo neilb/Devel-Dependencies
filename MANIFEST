@@ -1,0 +1,9 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+lib/Devel/Dependencies.pm
+t/Devel-Dependencies.t
+t/Foo.pm
+t/lib/Foo/Bar.pm
+META.yml                                 Module meta-data (added by MakeMaker)
