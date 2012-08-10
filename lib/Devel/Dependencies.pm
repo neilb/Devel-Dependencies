@@ -6,7 +6,7 @@ use warnings;
 
 package Devel::Dependencies;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 my %opt;
 
@@ -116,16 +116,20 @@ warn about it.
 
 =head1 SEE ALSO
 
+L<http://neilb.org/reviews/dependencies.html> - a review of CPAN
+modules for getting dependency information.
+
 L<perlrun>, L<perlvar>.
 
-This code is maintained in the darcs repository located at
-L<http://www.europerl.be/darcs/cpan/Devel-Dependencies>. If you want
-to contribute, please grab Darcs from L<http://darcs.net> and send
-Darcs patches to my email address.
+=head1 REPOSITORY
+
+https://github.com/neilbowers/Devel-Dependencies
 
 =head1 AUTHOR
 
 Jean-Louis Leroy, Europerl, E<lt>jll@europerl.beE<gt>
+
+Now maintained by Neil Bowers E<lt>neilb@cpan.orgE<gt>
 
 =head1 COPYRIGHT AND LICENSE
 
