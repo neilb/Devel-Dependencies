@@ -1,12 +1,20 @@
 package Devel::Dependencies;
 
 use 5.006001;
-use strict;
-use warnings;
 
 package Devel::Dependencies;
 
-our $VERSION = '1.01';
+# We don't actually
+#   use strict;
+#   use warnings;
+# Because if we did, then we wouldn't be able to tell whether the
+# target code used those pragmata. Thanks/blame TOBYINK for this :-)
+my $cpants = q/
+use strict;
+use warnings;
+#/;
+
+our $VERSION = '1.04';
 
 my %opt;
 
@@ -123,7 +131,7 @@ L<perlrun>, L<perlvar>.
 
 =head1 REPOSITORY
 
-https://github.com/neilbowers/Devel-Dependencies
+https://github.com/neilb/Devel-Dependencies
 
 =head1 AUTHOR
 
